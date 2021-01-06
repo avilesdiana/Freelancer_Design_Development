@@ -44,12 +44,17 @@ body {
   border-radius: 0.5rem;
   width: 90%;
   text-align: center;
+  border: none;
 }
 
 @media (min-width: 768px) {
   .boton {
     width: auto;
   }
+}
+
+.boton:hover {
+    cursor: pointer;
 }
 
 .sombra {
@@ -86,6 +91,25 @@ h3 {
 /* Titulos */
 .titulo span {
   font-size: 2rem;
+}
+
+/* Utilidades*/
+.w-sm-100 {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .w-sm-100 {
+        width: auto;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.alinear-derecha {
+    justify-content: flex-end;
 }
 
 /*Navegación Principal*/
@@ -171,33 +195,87 @@ h3 {
     display: grid;
     /* grid-template-columns: 300px 300px;
     grid-template-rows: 200px 800px;*/
-   /* grid: 200px 800px/ repeat(3, 1fr);*/
-   grid-template-columns: repeat(3,1fr);
-   column-gap: 1rem; /*separaciones*/
+    /* grid: 200px 800px/ repeat(3, 1fr);*/
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem; /*separaciones*/
   }
 }
 
-.servicio{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.servicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.servicio h3{
-    color: var(--primario);
+.servicio h3 {
+  color: var(--primario);
+  font-weight: 400;
+}
+
+.servicio p {
+  line-height: 2;
+  text-align: center;
+}
+
+.servicio .iconos {
+  height: 15rem;
+  width: 15rem;
+  background-color: var(--beige);
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Contacto*/
+.formulario {
+  background-color: var(--beige);
+  width: min(60rem, 100%); /* Utiliza el valor más pequeño*/
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.formulario fieldset {
+  border: none;
+}
+
+.formulario legend {
+  text-align: center;
+  width: 100%;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: var(--primario);
+  display: block;
+}
+
+@media (min-width: 768px) {
+    .formulario{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+
+.contenedor-campo{
+
+}
+
+.campo{
+    margin-bottom: 1rem;
+}
+
+.campo label{
+    color: gray;
     font-weight: 400;
+    margin-bottom: .5rem;
+    display: block;
 }
 
-.servicio p{
-    line-height: 2;
-}
-
-.servicio .iconos{
-    height: 15rem;
-    width: 15rem;
-    background-color: var(--beige);
-    border-radius: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
 }
