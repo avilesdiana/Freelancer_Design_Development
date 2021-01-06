@@ -7,3 +7,8 @@ using: https://colorhunt.co/
 
 Fonts:
 https://fonts.google.com/
+
+Normalize:
+https://necolas.github.io/normalize.css/
+
+
