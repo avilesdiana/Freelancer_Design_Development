@@ -21,10 +21,28 @@ body{
 .titulo {
     text-align: center;
     font-size: 3.8rem;
-    color: var(--primario);
+    color: var(--secundario);
     font-weight: 700;
 }
 
 .titulo span{
     font-size: 2rem;
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+.navegacion-principal {
+   padding: 1rem;
+   font-weight: 700;
+}
+
+.navegacion-principal a {
+    color: var(--hueso);
+    text-decoration: none;
 }
