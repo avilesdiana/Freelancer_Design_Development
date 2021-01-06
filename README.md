@@ -1,4 +1,7 @@
 # Project Freelancer:
+Proyecto finalizado en : https://dianaaviles.netlify.app/
+
+
 icons:
 using: https://tablericons.com
 
@@ -22,4 +25,8 @@ Box-Shadow:
 https://www.cssmatic.com/box-shadow
 
 Probar propiedades a navegadores:
-https://caniuse.com/
+ttps://caniuse.com/
+
+
+Servidor:
+https://www.netlify.com/
