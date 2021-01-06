@@ -1,4 +1,19 @@
+/*-------------------------------*/
+/*Ponerlo siempre en los proyectos para mejor rendimiento*/
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px; /*1 rem = 10px*/
+}
+/*-------------------------------*/
+
 h1 {
     text-align: center;
-    color: rgba(224, 119, 193, 0.767);
+    font-size: 3.8rem;
+}
+
+span{
+    font-size: 2rem;
 }
