@@ -18,3 +18,5 @@ https://necolas.github.io/normalize.css/
 Responsively:
 https://responsively.app/
 
+Box-Shadow:
+https://www.cssmatic.com/box-shadow
