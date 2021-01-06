@@ -20,3 +20,6 @@ https://responsively.app/
 
 Box-Shadow:
 https://www.cssmatic.com/box-shadow
+
+Probar propiedades a navegadores:
+https://caniuse.com/
