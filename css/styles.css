@@ -1,3 +1,11 @@
+:root {
+    --primario: #c86b85;
+    --secundario: #e6a4b4;
+    --beige: #f3d7ca;
+    --hueso: #f5eee6;
+
+}
+
 /*-------------------------------*/
 /*Ponerlo siempre en los proyectos para mejor rendimiento*/
 html{
@@ -12,6 +20,7 @@ body{
 .titulo {
     text-align: center;
     font-size: 3.8rem;
+    color: var(--primario)
 }
 
 .titulo span{
