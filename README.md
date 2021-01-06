@@ -3,7 +3,10 @@ icons:
 using: https://tablericons.com
 
 Palettes:
-using: https://colorhunt.co/
+using: https://colorhunt.com/
+
+       https://www.canva.com/es_mx/aprende/50-paletas-colores-visualmente-impactantes-que-inspiran/
+
 
 Fonts:
 https://fonts.google.com/

@@ -30,7 +30,7 @@ body{
 }
 
 .contenedor {
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
@@ -38,11 +38,48 @@ body{
     background-color: var(--secundario);
 }
 .navegacion-principal {
-   padding: 1rem;
-   font-weight: 700;
+   font-weight: 400;
+   display: flex;
+   flex-direction: column;
+}
+/*Celular*/
+@media (min-width: 480px) {
+    
 }
 
+/*Tablet*/
+@media (min-width: 768px) {
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+/*Laptop*/
+@media (min-width: 1140px) {
+    
+}
+
+/*Otro*/
+@media (min-width: 1400px) {
+    
+}
+
+
 .navegacion-principal a {
+    display: block;
+    text-align: center;
     color: var(--hueso);
     text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+    
 }
+
+.navegacion-principal a:hover{
+    background-color: var(--beige);
+    font-weight: 700;
+    color:var(--primario);
+}
+
+
