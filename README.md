@@ -25,7 +25,7 @@ Box-Shadow:
 https://www.cssmatic.com/box-shadow
 
 Probar propiedades a navegadores:
-ttps://caniuse.com/
+https://caniuse.com/
 
 
 Servidor:
