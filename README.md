@@ -5,7 +5,7 @@ using: https://tablericons.com
 Palettes:
 using: https://colorhunt.com/
 
-       https://www.canva.com/es_mx/aprende/50-paletas-colores-visualmente-impactantes-que-inspiran/
+using: https://www.canva.com/es_mx/aprende/50-paletas-colores-visualmente-impactantes-que-inspiran/
 
 
 Fonts:
@@ -14,4 +14,7 @@ https://fonts.google.com/
 Normalize:
 https://necolas.github.io/normalize.css/
 
+
+Responsively:
+https://responsively.app/
 
